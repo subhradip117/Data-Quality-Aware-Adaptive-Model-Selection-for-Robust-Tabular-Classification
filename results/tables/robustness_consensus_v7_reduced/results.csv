@@ -1,0 +1,12 @@
+dataset,condition,formula,weight,selected_model,oracle_model,selected_predicted_mean_f1,selected_actual_mean_f1,oracle_mean_f1,regret,correct_selection
+car_evaluation,missing_noise,additive_drop,0.5,Random Forest,Random Forest,0.8263018187537133,0.687816149359099,0.687816149359099,0.0,True
+car_evaluation,missing_noise_duplicates,additive_drop,0.5,Random Forest,SVM,0.8239432778732162,0.6848495588631662,0.7308611256343491,0.0460115667711829,False
+mobile_price,missing_imbalance,multiplicative,0.55,Logistic Regression,Logistic Regression,0.8606319183330999,0.7837362777143243,0.7837362777143243,0.0,True
+mobile_price,missing_noise,multiplicative,0.55,XGBoost,XGBoost,0.8846559257849722,0.8641270284011945,0.8641270284011945,0.0,True
+mobile_price,missing_noise_duplicates,multiplicative,0.55,XGBoost,XGBoost,0.883763767617007,0.8600072319085319,0.8600072319085319,0.0,True
+mobile_price,missing_noise_imbalance,multiplicative,0.55,XGBoost,XGBoost,0.8320193146151,0.7330081725313033,0.7330081725313033,0.0,True
+mobile_price,missing_noise_outliers,multiplicative,0.55,XGBoost,XGBoost,0.881336965366233,0.8635875366091748,0.8635875366091748,0.0,True
+mobile_price,noise_imbalance,multiplicative,0.55,XGBoost,XGBoost,0.8437841239180881,0.7625245228787088,0.7625245228787088,0.0,True
+bank_marketing,missing_noise,multiplicative,0.55,XGBoost,XGBoost,0.7458590261906951,0.7382090943622196,0.7382090943622196,0.0,True
+bank_marketing,missing_noise_duplicates,multiplicative,0.55,XGBoost,XGBoost,0.743779948898403,0.7403699644396493,0.7403699644396493,0.0,True
+bank_marketing,missing_noise_outliers,multiplicative,0.55,XGBoost,XGBoost,0.7413734685179,0.7335227759578906,0.7335227759578906,0.0,True

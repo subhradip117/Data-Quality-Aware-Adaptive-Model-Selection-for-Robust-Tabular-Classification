@@ -1,0 +1,2 @@
+version,datasets,cases,correct,selection_accuracy,mean_regret
+V7_reduced_without_maternal,3,11,10,0.9090909090909091,0.004182869706471173

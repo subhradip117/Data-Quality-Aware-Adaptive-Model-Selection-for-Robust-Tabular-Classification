@@ -1,0 +1,4 @@
+held_out_dataset,selected_formula,selected_weight,source_selection_accuracy,source_mean_regret
+car_evaluation,additive_drop,0.5,1.0,0.0
+mobile_price,multiplicative,0.55,1.0,0.0
+bank_marketing,multiplicative,0.55,1.0,0.0

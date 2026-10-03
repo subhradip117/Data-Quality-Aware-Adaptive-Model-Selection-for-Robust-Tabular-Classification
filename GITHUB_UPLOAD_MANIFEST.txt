@@ -1,0 +1,76 @@
+# GitHub Upload Manifest
+
+Created: 2026-10-04T04:32:05.701295
+
+This folder is a clean upload copy.
+The original project was not moved or deleted.
+
+Included:
+- .gitignore
+- README.md
+- data/README.md
+- experiments/baseline_experiment.py
+- experiments/census_source_experiments.py
+- experiments/combined_experiment.py
+- experiments/corruption_experiment.py
+- experiments/multi_seed_validation.py
+- experiments/selector_v7_reduced_without_maternal.py
+- requirements.txt
+- results/tables/baseline_results.csv
+- results/tables/multi_seed_combined_results.csv
+- results/tables/multi_seed_single_results.csv
+- results\figures\figure1_proposed_workflow.png
+- results\figures\figure2_model_robustness_profile.png
+- results\figures\figure3_selection_accuracy_comparison.png
+- results\figures\figure4_seed_stability.png
+- results\figures\figure5_adaptive_vs_fixed_baseline.png
+- results\tables\census_source_experiments\census_source_clean_baseline.csv
+- results\tables\census_source_experiments\census_source_combined_results.csv
+- results\tables\census_source_experiments\census_source_single_results.csv
+- results\tables\robustness_consensus_v7_reduced\results.csv
+- results\tables\robustness_consensus_v7_reduced\strategies.csv
+- results\tables\robustness_consensus_v7_reduced\summary.csv
+- src\corruption\__pycache__\combined_corruption.cpython-314.pyc
+- src\corruption\__pycache__\duplicate_injector.cpython-314.pyc
+- src\corruption\__pycache__\imbalance_injector.cpython-314.pyc
+- src\corruption\__pycache__\label_noise_injector.cpython-314.pyc
+- src\corruption\__pycache__\missing_injector.cpython-314.pyc
+- src\corruption\__pycache__\outlier_injector.cpython-314.pyc
+- src\corruption\combined_corruption.py
+- src\corruption\duplicate_injector.py
+- src\corruption\generate_missing_versions.py
+- src\corruption\imbalance_analyzer.py
+- src\corruption\imbalance_injector.py
+- src\corruption\label_noise_injector.py
+- src\corruption\missing_injector.py
+- src\corruption\noise_injector.py
+- src\corruption\outlier_injector.py
+- src\data\dataset_loader.py
+- src\data\dataset_splitter.py
+- src\data\dataset_summary.py
+- src\evaluation\metrics.py
+- src\evaluation\ranking.py
+- src\evaluation\statistical_tests.py
+- src\models\decision_tree.py
+- src\models\logistic_regression.py
+- src\models\random_forest.py
+- src\models\svm.py
+- src\models\xgboost_model.py
+- src\pipeline\__init__.py
+- src\pipeline\__pycache__\adaptive_pipeline.cpython-314.pyc
+- src\pipeline\adaptive_pipeline.py
+- src\quality\__pycache__\quality_auditor.cpython-314.pyc
+- src\quality\duplicate_checker.py
+- src\quality\imbalance_checker.py
+- src\quality\label_noise_checker.py
+- src\quality\missing_value_checker.py
+- src\quality\outlier_checker.py
+- src\quality\quality_auditor.py
+- src\selector\__pycache__\dataset_meta_features.cpython-314.pyc
+- src\selector\__pycache__\robustness_profile.cpython-314.pyc
+- src\selector\adaptive_weights.py
+- src\selector\dataset_meta_features.py
+- src\selector\model_selector.py
+- src\selector\robustness_profile.py
+- src\utils\config.py
+- src\utils\logger.py

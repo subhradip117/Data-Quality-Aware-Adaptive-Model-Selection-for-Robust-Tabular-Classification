@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local/private data
+data/raw/
+data/corrupted/
+data/processed/splits/
+
+# Local model files
+*.joblib
+*.pkl
+
+# Experiment scratch files
+*.log
+*.tmp
+
+# Local archives
+research_archive/
+github_upload/
